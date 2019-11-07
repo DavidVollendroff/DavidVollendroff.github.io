@@ -3,6 +3,7 @@ layout: post
 title: Descent Into Madness
 subtitle: How my Tetris agent fought through crippling depression
 bigimg: /img/tetris.jpg
+tags: [reinforcement learning, machine learning, a.i., Tetris]
 ---
 
 I thought making a Tetris-playing A.I. would be simple..
