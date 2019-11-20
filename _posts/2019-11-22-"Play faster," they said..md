@@ -6,7 +6,7 @@ bigimg: /img/tetris.jpg
 tags: [Rocket League]
 ---
 
-#Stuff about how you hear "play faster"
+# Stuff about how you hear "play faster"
 More stuff about how that's crap advice then the graph showing why it's crap
 my.image.jpg
 
