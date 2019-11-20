@@ -2,13 +2,13 @@
 layout: post
 title: Why "play faster" is poor advice
 subtitle: The trouble with correlation
-bigimg: /img/tetris.jpg
+bigimg: /img/ballchasing.jpg
 tags: [Rocket League]
 ---
 
 # Stuff about how you hear "play faster"
 More stuff about how that's crap advice then the graph showing why it's crap
-my.image.jpg
+![Graph](/img/speeds.png){: .center-block :}
 
 # Interpretation
 Sure, it's correlated. Point out that mmr is even more highly correlated to crappy shot percentage.  
