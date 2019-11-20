@@ -6,16 +6,6 @@ bigimg: /img/tetris.jpg
 tags: [Rocket League]
 ---
 
-I thought making a Tetris-playing A.I. would be simple..
-```python
-import tensorflow
-import tf_agents
-
-agent.learn(to_play_tetris)
-nuke(hot_pocket)
-```
-And that would be that.
-
 #Stuff about how you hear "play faster"
 More stuff about how that's crap advice then the graph showing why it's crap
 my.image.jpg
