@@ -3,6 +3,7 @@ layout: post
 title: Rocket Speed
 subtitle: Why "play faster" is poor advice
 bigimg: /img/ballchasing.jpg
+image: /img/ballchasing.jpg
 tags: [Rocket League]
 ---
 
