@@ -32,11 +32,11 @@ Taking a look at this graph we see Gold 1 is the rank where players spend the lo
 
 It's unsurprising then that GCs consistently have the *lowest* average boost level. Even though they consistently collect the *highest* number of small boost pads as they move, they use it as quickly as they pick it up. Efficiently cruising and collecting in massive quantities like a baleen whale at lunch time.
 
-But boost has more than one use. As it turns out, minimizing the amount of time you're moving slowly is even more highly correlated with rank than raw speed. A whopping **0.98**. While GCs glide along at high speeds, occasionally boosting to make the leap to supersonic, they often use that boost to recover after those inevitable moments where we all end up slowing down. 
+But boost has more than one use. Often GCs use their boost to maintain a glide at high speeds, occasionally boosting to make the leap to supersonic, attacking when the opportunity presents itself. But possibly more importantly, they boost to recover quickly after those inevitable situations that require any player to slow down. As it turns out, minimizing the amount of time you're moving slowly is even more highly correlated with rank than raw speed. A whopping **0.98**.
 
-While most us us appreciate the value of positioning, it can be easily lost on us how valuable acceleration is. Accelerating quickly after these necessary periods of crawling along has an **exponential** effect on positioning. I'm saying that literally. And it is at low speeds where boosting will bestow you the greatest advantage, though I'll leave the Physics equations as proof for another day.
+This important role for boost makes most sense when we consider positioning. While most us us appreciate the value of positioning, it can be easily lost on us how large a role acceleration plays. Increasing your acceleration has an **exponential** effect on positioning. I'm saying that literally, though I'll leave the Physics equations as proof for another day.
 
-If anything, "drive faster" would be better off replaced with, "drive very slowly less often".
+If anything the simple, "drive faster" would be better off replaced with, "drive very slowly less often".
 
 Seeing highly ranked players driving quickly shouldn't convince us that the key to ranking up is something that starts with "drive faster". Driving quickly is great, but speed is a symptom of success. It's not the cause. As we know, leaving out key factors can lead to some absurd conclusions.
 
