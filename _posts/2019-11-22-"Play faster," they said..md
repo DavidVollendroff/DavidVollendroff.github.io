@@ -65,4 +65,4 @@ Analyzing your replays provides you the time to reflect and consider your option
 
 Your superpower is not being confined by the dictates of a ticking in-game clock. Without that constraint you're capable of coaching yourself to greatness. Drive faster and think less? How about drive smarter and think differently?
 
-"Play faster" isn't entirely without merit, and its proponents aren't fools. But it's crap advice.
+"Play faster" isn't without merit, and its proponents aren't fools. But it's crap advice.
