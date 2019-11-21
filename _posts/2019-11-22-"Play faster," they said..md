@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Why "play faster" is poor advice
-subtitle: The trouble with correlation
+title: Rocket Speed
+subtitle: Why "play faster" is poor advice
 bigimg: /img/ballchasing.jpg
 tags: [Rocket League]
 ---
