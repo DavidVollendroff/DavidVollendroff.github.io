@@ -10,6 +10,7 @@ tags: [Rocket League]
 You'll often hear this advice given to players who find themselves in a rut, heading out to seek answers as to why that next promotion is so elusive. Those offering speed as a solution will often point out, "Look at how fast Grand Champion players are." And they say this because it makes a great deal of sense.
 
 ![Graph](/img/speeds.png){: .center-block :}
+*All data drawn from calculated.gg*
 
 Said more technically, speed and player rank have a **0.96** correlation. That's massive in the world of statistics. Faster play equals higher rank. But then again, shooting percentage has a -0.97 correlation. Meaning you could even more confidently conclude that as players get more highly ranked they become worse shooters.  
 
@@ -30,7 +31,7 @@ I know that many people who've read this far are thinking, "David, 'play faster'
 
 If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then we should be able to find data that supports it. If it's better to leap without thinking then we should expect GC's to spend more time on the offense, forsaking the option to fall back and think some more like those poor Platinum schlubs.
 
-It turns out GC's spend the most time in the attacking third! 
+The data *does* show GC's spend the most time in the attacking third! 
 
 ![Graph](/img/attacking_third.png)
 
