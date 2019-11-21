@@ -45,7 +45,7 @@ I know that many people who've read this far are thinking, "David, 'play faster'
 
 But rarely do you hear, "be decisive". I digress.
 
-If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then our data should support it. If it's better to leap without looking then on average we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
+If it's true that sacrificing the quality of your decisions in trade for the speed you enact them is the path to success, then our data should support it. If it's better to leap without looking then on average we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
 
 The data *does* show GCs spend the most time in the attacking third! 
 
