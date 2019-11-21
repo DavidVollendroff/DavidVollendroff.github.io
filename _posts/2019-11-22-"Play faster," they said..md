@@ -15,11 +15,10 @@ You'll often hear this advice given to players who find themselves in a rut, cha
 
 Restating things more technically, speed and player rank have a **0.96** correlation. Given that the scale tops out at 1.0, that correlation is massive in the world of statistics. Faster play equals higher rank. And as even stronger data, shooting percentage has a **-0.97** correlation. Meaning you could even more confidently conclude that as players gain rank they become worse shooters.  
 
-Except that's ridiculous. We all know players are much better shooters as you climb the ladder. It just so happens that as you ascend the number of made saves rises even more quickly than the number of shots placed on net. Shot accuracy actually rises dramatically. 
+Except that's ridiculous. We all know players are much better shooters as you climb the ladder. It just so happens that the number of made saves rises even more quickly than the number of shots placed on net. Shot accuracy actually rises dramatically. 
 
-Correlation from one metric isn't telling even close to the whole story. Such a narrow focus leads to absurdity. We need to broaden our view.
-
-Returning to the graph above we can start to expand the narrative. Talking about averages left the idea of variance out in the cold. When we look back at our distributions of player average speeds we can see that there is a non-trivial amount of overlap between the lowly Silver 1 population and the Grand Champions(*1580 average MMR*). Interestingly, the overlap occurs such that around 1/6th of the players in Silver 1 are playing at average speeds *faster* than about 1/4th of Grand Champions. Put another way, you should expect the fastest **Silver** in a 3v3 lobby to be **playing faster than the slowest Grand Champion** in a 2v2 match a staggering **71% of the time**.
+Correlation from one metric isn't telling us even close to the whole story here. Such a narrow focus leads to absurdity. We need to broaden our view.
+Focusing on averages we left the idea of variance out in the cold. Looking back at our distributions of player average speeds we can see that there is a non-trivial amount of overlap between the lowly Silver 1 population and the Grand Champions(*1580 average MMR*). Interestingly, the overlap occurs such that around 1/6th of the players in Silver 1 are playing at average speeds *faster* than about 1/4th of Grand Champions. Put another way, you should expect the fastest **Silver** in a 3v3 lobby to be **playing faster than the slowest Grand Champion** in a 2v2 match a staggering **71% of the time**.
 
 Clearly, `faster =/= better`.
 
@@ -28,7 +27,9 @@ We're far better off asking questions with more nuance if we want to understand 
 
 ![Graph](/img/speed chart.png){: .center-block :}
 
-Taking a look at this graph we see Gold 1 is the rank where players spend the lowest proportion of their time moving at speeds throttle alone can't reach. Conversely, Grand Champions spend more than half of their time traveling at speeds that require using wavedashes, dodges or just good-old-fashioned boost. It's unsurprising then that they consistently have the *lowest* average boost level. Even though they consistently collect the *highest* number of small boost pads as they move, they use it just as quickly as they pick it up. Efficiently cruising and collecting in massive quantities like a baleen whale at lunch time.
+Taking a look at this graph we see Gold 1 is the rank where players spend the lowest proportion of their time moving at speeds throttle alone can't reach. Conversely, Grand Champions spend more than half of their time traveling at speeds that require using wavedashes, dodges or just good-old-fashioned boost. 
+
+It's unsurprising then that GCs consistently have the *lowest* average boost level. Even though they consistently collect the *highest* number of small boost pads as they move, they use it as quickly as they pick it up. Efficiently cruising and collecting in massive quantities like a baleen whale at lunch time.
 
 But boost has more than one use. As it turns out, minimizing the amount of time you're moving slowly is even more highly correlated with rank than raw speed. A whopping **0.98**. While GCs glide along at high speeds, occasionally boosting to make the leap to supersonic, they often use that boost to recover after those inevitable moments where we all end up slowing down. 
 
@@ -36,7 +37,7 @@ While most us us appreciate the value of positioning, it can be easily lost on u
 
 If anything, "drive faster" would be better off replaced with, "drive very slowly less often".
 
-Seeing that the higher ranked a player is the faster he or she is likely to be driving shouldn't at all suggest to us that the key to ranking up is something that starts with "drive faster". Driving quickly is great, but speed is a symptom of success. It's not the cause. As we know, leaving out key factors can lead to some absurd conclusions.
+Seeing highly ranked players driving quickly shouldn't convince us that the key to ranking up is something that starts with "drive faster". Driving quickly is great, but speed is a symptom of success. It's not the cause. As we know, leaving out key factors can lead to some absurd conclusions.
 
 ### Some food for thought
 
