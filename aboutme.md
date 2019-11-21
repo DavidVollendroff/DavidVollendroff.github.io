@@ -4,10 +4,11 @@ title: About me
 subtitle: Being interested in almost everything can be useful
 ---
 
-I've spent time thinking about all sorts of different things from healthcare. I have the following qualities:
+Stuff I'm going to fill in later:
 
 - I play my classical guitar daily
 - Getting some exercise daily is something I'm committed to.
+- I've never eaten more than 90 bagels in a day
 
 Some more stuff
 
