@@ -45,11 +45,11 @@ The data *does* show GCs spend the most time in the attacking third!
 
 But they do so by a slim and nearly meaningless margin. It turns out this game is complicated, and maybe extremely basic advice is not only useless but detrimental.
 
-## So what is my advice if not "play faster"?
+# So what is my advice if not "play faster"?
 
 Ranking up in Rocket League is not simple or easy. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
 
-# Replay Analysis
+## Replay Analysis
 
 For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you'll say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely attempting to speed up. 
 
