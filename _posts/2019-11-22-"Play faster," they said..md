@@ -7,7 +7,7 @@ tags: [Rocket League]
 ---
 
 # "Play faster."
-You'll often hear this advice given to players who find themselves in a rut, heading out to seek answers as to why that next promotion is so elusive. Those offering speed as a solution will often point out, "Look at how fast Grand Champion players are." And they say this because it makes a great deal of sense. And we'll be looking at some data from [calculated.gg](http://calculated.gg/) that supports this point of view.
+You'll often hear this advice given to players who find themselves in a rut, chasing an elusive promotion. Those offering speed as a solution will often point out, "Look at how fast Grand Champion players are." And they say this because it makes a great deal of sense. And we'll be looking at some data from [calculated.gg](http://calculated.gg/) that could support this point of view.
 
 ![Graph](/img/speeds.png){: .center-block :}
 
