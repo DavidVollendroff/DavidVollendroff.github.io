@@ -41,7 +41,7 @@ Seeing highly ranked players driving quickly shouldn't convince us that the key 
 
 ### Some food for thought
 
-I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decisiveness. Do whatever you're going to do, but do it quickly."
+I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decision making and aggression. Do whatever you're going to do, but do it quickly."
 
 But rarely do you hear, "be decisive". I digress.
 
