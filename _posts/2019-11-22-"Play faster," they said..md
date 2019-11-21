@@ -31,7 +31,7 @@ Plus, boost has more than one use. While GCs glide along at high speeds, they al
 
 Seeing that the higher ranked a player is the faster he or she is likely to be driving shouldn't at all suggest to us that the key to ranking up is something that starts with "drive faster". Driving quickly is great, but speed is a symptom of success. It's not the cause. As we know, leaving out key factors can lead to some absurd conclusions.
 
-# Some food for thought
+## Some food for thought
 
 I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decisiveness. Do whatever you're going to do, but do it quickly."
 
@@ -43,7 +43,7 @@ The data *does* show GCs spend the most time in the attacking third!
 
 But they do so by a slim and nearly meaningless margin. It turns out this game is complicated.
 
-### So what is my advice if not "play faster"?
+# So what is my advice if not "play faster"?
 
 More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
 
