@@ -51,7 +51,7 @@ But they do so by a slim and nearly meaningless margin. It turns out this game i
 
 # So what is my advice if not "play faster"?
 
-Ranking up in Rocket League is not simple or easy. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward developing a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
+Ranking up in Rocket League is difficult. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward developing a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
 
 ### Replay Analysis
 
