@@ -50,7 +50,7 @@ The data *does* show GCs spend the most time in the attacking third!
 
 ![Graph](/img/attacking_third.png)
 
-But they do so by a slim and nearly meaningless margin. It turns out this game is complicated, and maybe extremely basic advice is not only useless but detrimental.
+But they do so by a slim and nearly meaningless margin. It turns out this game is complicated, and perhaps extremely basic advice is not only useless but detrimental.
 
 # So what is my advice if not "play faster"?
 
