@@ -45,7 +45,7 @@ I know that many people who've read this far are thinking, "David, 'play faster'
 
 But rarely do you hear, "be decisive". I digress.
 
-If it's true that sacrificing the quality of your decisions in trade for the speed you enact them is the path to success, then our data should support it. If it's better to leap without looking then on average we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
+If it's true that sacrificing the quality of your decisions in trade for a higher speed with which you enact them is the path to success, then our data should support it. If it's better to leap without looking then on average we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
 
 The data *does* show GCs spend the most time in the attacking third! 
 
@@ -54,7 +54,7 @@ The data *does* show GCs spend the most time in the attacking third!
 But they do so by a slim and nearly meaningless margin. It turns out this game is complicated, and perhaps extremely basic advice is not only useless but detrimental.
 
 # So what is my advice if not "play faster"?
-
+### From critical to constructive
 Ranking up in Rocket League is difficult. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward developing a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
 
 ### Replay Analysis
