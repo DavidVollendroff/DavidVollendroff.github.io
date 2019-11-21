@@ -7,12 +7,12 @@ tags: [Rocket League]
 ---
 
 # "Play faster."
-You'll often hear this advice given to players who find themselves in a rut, heading out to seek answers as to why that next promotion is so elusive. Those offering speed as a solution will often point out, "Look at how fast Grand Champion players are." And they say this because it makes a great deal of sense.
+You'll often hear this advice given to players who find themselves in a rut, heading out to seek answers as to why that next promotion is so elusive. Those offering speed as a solution will often point out, "Look at how fast Grand Champion players are." And they say this because it makes a great deal of sense. And we'll be looking at some data from [calculated.gg](http://calculated.gg/) that supports this point of view.
 
 ![Graph](/img/speeds.png){: .center-block :}
-*All data drawn from calculated.gg*
 
-Said more technically, speed and player rank have a **0.96** correlation. That's massive in the world of statistics. Faster play equals higher rank. But then again, shooting percentage has a -0.97 correlation. Meaning you could even more confidently conclude that as players get more highly ranked they become worse shooters.  
+
+Said more technically, speed and player rank have a **0.96** correlation. That's massive in the world of statistics. Faster play equals higher rank. But then again, shooting percentage has a -0.97 correlation. Meaning if you chose to you could even more confidently conclude that as players get more highly ranked they become worse shooters.  
 
 Except that's ridiculous. We all know players are much better shooters as you climb the ladder. It just so happens the number of saves  made rises even more quickly than the number of shots on net as you ascend. Shot accuracy actually rises dramatically. Correlation from one metric doesn't tell even close to the whole story. 
 
@@ -23,13 +23,15 @@ We're far better off asking questions with more nuance if we want to understand 
 
 ![Graph](/img/speed chart.png){: .center-block :}
 
-Gold 1 is the rank where players spend the lowest proportion of their time in a match moving at speeds that throttle alone can't reach. While Grand Champions spend more than half of their time using wavedashes, dodges or good-old-fashioned boost to travel. It's unsurprising then that they consistently have the *lowest* average boost level, even though they consistently collect the *highest* number of small boost pads as they move. 
+Gold 1 is the rank where players spend the lowest proportion of their time in a match moving at speeds that throttle alone can't reach. While Grand Champions spend more than half of their time using wavedashes, dodges or good-old-fashioned boost to travel. It's unsurprising then that they consistently have the *lowest* average boost level, even though they consistently collect the *highest* number of small boost pads as they move.
+
+Seeing that the higher ranked a player is the faster he or she is likely to be driving shouldn't at all suggest to us that the key to ranking up is something that starts with "drive faster".
 
 # Some food for thought
 
 I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decisiveness. Do whatever you're going to do, but do it quickly."
 
-If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then we should be able to find data that supports it. If it's better to leap without thinking then we should expect GC's to spend more time on the offense, forsaking the option to fall back and think some more like those poor Platinum schlubs.
+If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then we should be able to find data that supports it. If it's better to leap without thinking then we should expect GC's to spend more time on the offense, forsaking the option to fall back and think some more like those Platinum-tier small-brains.
 
 The data *does* show GC's spend the most time in the attacking third! 
 
@@ -39,8 +41,8 @@ But they do so by a slim and nearly meaningless margin. It turns out this game i
 
 ### So what is my advice if not "play faster"?
 
-More than anything, I believe recognizing Soccar is a complex and intricate sport is a first step toward a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you say, "What was I thinking?"
+More than anything, I believe recognizing as a Soccar complex and intricate sport is a first step toward a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think even more slowly.**
 
-Analyzing your replays is incredibly useful and provides you the time to reflect and consider your options in a way that a professional player could probably do in milliseconds. That's fine. Your superpower is not being confined to a ticking clock. Drive faster and think less? No thanks, I'll drive smarter and think more. 
+For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely speeding up. Analyzing your replays provides you the time to reflect and consider your options in a way that sure, a professional player could probably do in milliseconds. That's fine. Your superpower is not being confined to a ticking clock. Drive faster and think less? No thanks, I'll drive smarter and think differently. 
 
 "Play faster" isn't entirely without merit, and its proponents aren't fools. But it's crap advice.
