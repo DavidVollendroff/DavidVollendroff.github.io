@@ -28,7 +28,7 @@ Gold 1 is the rank where players spend the lowest proportion of their time in a 
 
 I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decisiveness. Do whatever you're going to do, but do it quickly."
 
-If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success then we should be able to find data that supports it. If it's better to leap then we should expect GC's to spend more time on the offense, forsaking the ability to fall back and think some more.
+If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success then we should be able to find data that supports it. If it's better to leap without thinking then we should expect GC's to spend more time on the offense, forsaking the ability to fall back and think some more.
 
 It turns out GC's spend the most time in the attacking third! 
 
