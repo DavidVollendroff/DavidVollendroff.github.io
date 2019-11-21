@@ -18,7 +18,7 @@ Restating things more technically, speed and player rank have a **0.96** correla
 Except that's ridiculous. We all know players are much better shooters as you climb the ladder. It just so happens that the number of made saves rises even more quickly than the number of shots placed on net. Shot accuracy actually rises dramatically. 
 
 Correlation from one metric isn't telling us even close to the whole story here. Such a narrow focus leads to absurdity. We need to broaden our view.
-Focusing on averages we left the idea of variance out in the cold. Looking back at our distributions of player average speeds we can see that there is a non-trivial amount of overlap between the lowly Silver 1 population and the Grand Champions(*1580 average MMR*). Interestingly, the overlap occurs such that around 1/6th of the players in Silver 1 are playing at average speeds *faster* than about 1/4th of Grand Champions. Put another way, you should expect the fastest **Silver** in a 3v3 lobby to be **playing faster than the slowest Grand Champion** in a 2v2 match a staggering **71% of the time**.
+Focusing on averages we left the idea of variance out in the cold. Looking back at our distributions of player average speeds we can see that there is a non-trivial amount of overlap between the lowly Silver 1 population and the Grand Champions(*1580 average MMR*). Interestingly, the overlap occurs such that around 1/6th of the players in Silver 1 are playing at average speeds *faster* than about 1/4th of Grand Champions. To put it another way, you should expect the fastest **Silver** in a 3v3 lobby to be **playing faster than the slowest Grand Champion** in a 2v2 match a staggering **71% of the time**.
 
 Clearly, `faster =/= better`.
 
