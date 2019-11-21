@@ -25,7 +25,9 @@ We're far better off asking questions with more nuance if we want to understand 
 
 ![Graph](/img/speed chart.png){: .center-block :}
 
-Taking a look at this graph we see Gold 1 is the rank where players spend the lowest proportion of their time in a match moving at speeds that throttle alone can't reach. On the other end of the spectrum, Grand Champions spend more than half of their time using wavedashes, dodges or good-old-fashioned boost to travel. It's unsurprising then that they consistently have the *lowest* average boost level, even though they consistently collect the *highest* number of small boost pads as they move. They use it up as quickly as they pick it up, efficiently cruising and collecting like a baleen whale. And while they glide along at high speeds, they also using that boost to accelerate after those moments where we all inevitably must slow down. Some of us recovering momentum more slowly than others.
+Taking a look at this graph we see Gold 1 is the rank where players spend the lowest proportion of their time in a match moving at speeds that throttle alone can't reach. On the other end of the spectrum, Grand Champions spend more than half of their time using wavedashes, dodges or good-old-fashioned boost to travel. It's unsurprising then that they consistently have the *lowest* average boost level, even though they consistently collect the *highest* number of small boost pads as they move. They use it up as quickly as they pick it up, efficiently cruising and collecting like a baleen whale.
+
+Plus, boost has more than one use. While GCs glide along at high speeds, they also using that boost to accelerate after those moments where we all inevitably must slow down. Some of us recovering momentum more slowly than others.
 
 Seeing that the higher ranked a player is the faster he or she is likely to be driving shouldn't at all suggest to us that the key to ranking up is something that starts with "drive faster". Driving quickly is great, but speed is a symptom of success. It's not the cause. As we know, leaving out key factors can lead to some absurd conclusions.
 
@@ -33,9 +35,9 @@ Seeing that the higher ranked a player is the faster he or she is likely to be d
 
 I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decisiveness. Do whatever you're going to do, but do it quickly."
 
-If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then our data should support it. If it's better to leap without looking then we should expect GC's to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
+If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then our data should support it. If it's better to leap without looking then we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
 
-The data *does* show GC's spend the most time in the attacking third! 
+The data *does* show GCs spend the most time in the attacking third! 
 
 ![Graph](/img/attacking_third.png)
 
