@@ -21,7 +21,7 @@ Variance plays a huge role in telling the story of any data. When we look back a
 Clearly, `faster =/= better`.
 
 # What's really going on then?
-We're far better off asking questions with more nuance if we want to understand what this correlation between speed and rank is hinting at. That correlation lets us know that higher ranked players are moving more quickly on average, but other data will show us how. 
+We're far better off asking questions with more nuance if we want to understand what this correlation between speed and rank is hinting at. That correlation lets us know that higher ranked players are moving more quickly on average, but looking at a broader scope of variables will help us understand **how** they do it. 
 
 ![Graph](/img/speed chart.png){: .center-block :}
 
