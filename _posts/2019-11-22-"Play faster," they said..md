@@ -35,18 +35,22 @@ Seeing that the higher ranked a player is the faster he or she is likely to be d
 
 I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decisiveness. Do whatever you're going to do, but do it quickly."
 
-If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then our data should support it. If it's better to leap without looking then we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
+But rarely will you hear, "be more decisive". I digress.
+
+If that's the case, that sacrificing the quality of your decisions for the speed you enact them is the path to success, then our data should support it. If it's better to leap without looking then on average we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
 
 The data *does* show GCs spend the most time in the attacking third! 
 
 ![Graph](/img/attacking_third.png)
 
-But they do so by a slim and nearly meaningless margin. It turns out this game is complicated.
+But they do so by a slim and nearly meaningless margin. It turns out this game is complicated, and maybe extremely basic advice is not only useless but harmful.
 
 # So what is my advice if not "play faster"?
 
 More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
 
-For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you'll say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely attempting to speed up. Analyzing your replays provides you the time to reflect and consider your options in a way that sure, a professional player could probably do in milliseconds. An incredible superpower to make pro-level decisions that quickly. The rest of us don't have that(yet). That's fine. Your superpower is not being confined to a ticking clock. Drive faster and think less? No thanks, I'll drive smarter and think differently. 
+For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you'll say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely attempting to speed up. 
+
+Analyzing your replays provides you the time to reflect and consider your options in a way that sure, a professional player could probably do in milliseconds. An incredible superpower to make pro-level decisions that quickly. The rest of us don't have that(yet). That's fine. Your superpower is not being confined to a ticking clock. Drive faster and think less? No thanks, I'll drive smarter and think differently. 
 
 "Play faster" isn't entirely without merit, and its proponents aren't fools. But it's crap advice.
