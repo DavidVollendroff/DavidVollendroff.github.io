@@ -35,7 +35,7 @@ If anything, "drive faster" would be better off replaced with, "drive very slowl
 
 Seeing that the higher ranked a player is the faster he or she is likely to be driving shouldn't at all suggest to us that the key to ranking up is something that starts with "drive faster". Driving quickly is great, but speed is a symptom of success. It's not the cause. As we know, leaving out key factors can lead to some absurd conclusions.
 
-## Some food for thought
+### Some food for thought
 
 I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decisiveness. Do whatever you're going to do, but do it quickly."
 
@@ -53,7 +53,7 @@ But they do so by a slim and nearly meaningless margin. It turns out this game i
 
 Ranking up in Rocket League is not simple or easy. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward developing a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
 
-## Replay Analysis
+### Replay Analysis
 
 For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you'll say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely attempting to speed up. 
 
