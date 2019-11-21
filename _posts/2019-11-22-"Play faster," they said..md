@@ -12,7 +12,7 @@ You'll often hear this advice given to players who find themselves in a rut, hea
 ![Graph](/img/speeds.png){: .center-block :}
 
 
-Said more technically, speed and player rank have a **0.96** correlation. That's massive in the world of statistics. Faster play equals higher rank. But then again, shooting percentage has a -0.97 correlation. Meaning if you chose to you could even more confidently conclude that as players get more highly ranked they become worse shooters.  
+Restating things more technically, speed and player rank have a **0.96** correlation. That's massive in the world of statistics. Faster play equals higher rank. But then again, shooting percentage has a -0.97 correlation. Meaning if you chose to you could even more confidently conclude that as players get more highly ranked they become worse shooters.  
 
 Except that's ridiculous. We all know players are much better shooters as you climb the ladder. It just so happens the number of saves  made rises even more quickly than the number of shots on net as you ascend. Shot accuracy actually rises dramatically. Correlation from one metric doesn't tell even close to the whole story. 
 
