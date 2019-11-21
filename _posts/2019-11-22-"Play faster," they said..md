@@ -53,6 +53,6 @@ Ranking up in Rocket League is not simple or easy. More than anything, I believe
 
 For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you'll say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely attempting to speed up. 
 
-Analyzing your replays provides you the time to reflect and consider your options in a way that sure, a professional player could probably do in milliseconds. An incredible superpower to make pro-level decisions that quickly. The rest of us don't have that(yet). That's fine. Your superpower is not being confined to a ticking clock. Drive faster and think less? No thanks, I'll drive smarter and think differently. 
+Analyzing your replays provides you the time to reflect and consider your options in a way that sure, a professional player could probably do in milliseconds. These players have honed their abilities to make pro-level decisions quickly. The rest of us don't have that power(yet). That's fine. Your superpower is not being confined by the dictates of a ticking clock. Drive faster and think less? No thanks, I'll drive smarter and think differently. 
 
 "Play faster" isn't entirely without merit, and its proponents aren't fools. But it's crap advice.
