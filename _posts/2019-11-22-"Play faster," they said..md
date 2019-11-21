@@ -32,7 +32,7 @@ If that's the case, that sacrificing the quality of your decisions for the speed
 
 It turns out GC's spend the most time in the attacking third! 
 
-![Graph](/img/attacking_third.png){: .center-block :}
+![Graph](/img/attacking_third.png)
 
 But they do so by a slim and nearly meaningless margin.
 
