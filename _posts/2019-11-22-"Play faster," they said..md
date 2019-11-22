@@ -34,7 +34,7 @@ It's unsurprising then that GCs consistently have the *lowest* average boost lev
 
 But boost has more than one use. Often GCs use their boost to maintain a glide at high speeds, occasionally boosting to make the leap to supersonic, attacking when the opportunity presents itself. But possibly more importantly, they boost to recover quickly after those inevitable situations that require any player to slow down. As it turns out, minimizing the amount of time you're moving slowly is even more highly correlated with rank than raw speed. A whopping **0.98**.
 
-This important role for boost makes most sense when we consider positioning. While most us us appreciate the value of positioning, it can be easily lost on us how large a role acceleration plays. Increasing your acceleration has an **exponential** effect on positioning. I'm saying that literally, though I'll leave the Physics equations as proof for another day.
+This important role for boost makes most sense when we consider positioning. While most of us appreciate the value of positioning, it can be easily lost on us how large a role acceleration plays. Increasing your acceleration has an **exponential** effect on positioning. I'm saying that literally, though I'll leave the Physics equations as proof for another day.
 
 If anything the simple, "drive faster" would be better off replaced with, "drive very slowly less often".
 
@@ -55,13 +55,13 @@ The data *does* show GCs spend the most time in the attacking third!
 But they do so by a slim and nearly meaningless margin. It turns out this game is complicated, and perhaps extremely basic advice is not only useless but detrimental.
 
 # So what is my advice if not "play faster"?
-Ranking up in Rocket League is difficult. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward developing a successful playstyle. With all of the possibilities to consider, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
+Ranking up in Rocket League is difficult. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward developing a successful playstyle. With so many variables to consider at any given moment of a match, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
 
 ### Replay Analysis
 
 For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you'll say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely attempting to speed up. 
 
-Analyzing your replays provides you the time to reflect and consider your options in a way that a professional player could probably do in milliseconds. That's fine. These players have honed their abilities to make pro-level decisions quickly. The rest of us don't have that power(yet). 
+Analyzing your replays provides you the time to reflect and consider your options in a way that a professional player could probably do in milliseconds. That's fine. These players have honed their abilities to make pro-level decisions quickly. The rest of us don't have that power. Yet 
 
 Your superpower is not being confined by the dictates of a ticking in-game clock. Without that constraint you're capable of coaching yourself to greatness. Drive faster and think less? How about drive smarter and think differently?
 
