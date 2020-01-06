@@ -3,7 +3,7 @@ layout: post
 title: All-NBA Centers in 2020
 subtitle: What has changed and what remains the same about receiving this honor.
 bigimg: /img/centers.jpg
-image: /img/shaq_log.png
+image: /img/shaq_logo.png
 tags: [NBA]
 ---
 
