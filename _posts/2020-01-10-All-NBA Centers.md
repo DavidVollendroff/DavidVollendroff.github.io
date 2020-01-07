@@ -16,7 +16,9 @@ Anthony Davis suffered an injured that effectively sidelined him after participa
 # First headline stuff n stuff
 First of all, the linear regression does an absolutely awful job of ranking players. [calculated.gg](http://calculated.gg/) Presently the .
 
-![Graph](/img/speeds.png){: .center-block :}
+# What the model thinks is important
+![Graph](/img/nba_feature_weights.png)
+
 
 
 A paragraph of stuff.  
@@ -29,8 +31,8 @@ The tree-based model seems to perform more sensibly, but not without it's own se
 
 Paragraphs of information.
 
-### Another visualization
-![Graph](/img/attacking_third.png)
+# Nikola Jokić's passing is literally off the charts
+![Graph](/img/PTS_AST.png){: .center-block :}
 
 Stuff about that visualization.
 
