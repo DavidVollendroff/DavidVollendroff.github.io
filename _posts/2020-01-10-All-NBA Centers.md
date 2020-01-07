@@ -26,10 +26,7 @@ A paragraph of stuff.
 More stuff and stuff.
 
 # Tree Based Regression
-The tree-based model seems to perform more sensibly, but not without it's own set of issues. Encouragingly it finds the top seven players, suffering a bit  Validating the model on data from the 2017-18 NBA Season sees it predicting that DeMarcus Cousins would 
-![Graph](/img/speed chart.png){: .center-block :}
-
-Paragraphs of information.
+The tree-based model seems to perform more sensibly, but not without it's own set of issues. Encouragingly it finds the top seven players, and would place them in perfect ordering if not for suffering from what appears to be two main errors in judgment. 
 
 # Nikola Jokić's passing is literally off the charts
 ![Graph](/img/PTS_AST.png){: .center-block :}
