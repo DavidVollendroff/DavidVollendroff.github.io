@@ -6,63 +6,44 @@ bigimg: /img/centers.jpg
 image: /img/shaq_logo.png
 tags: [NBA]
 ---
+# Games Played
+It seems to me that my machine learning models had a hard time grasping the connection between number of games a player plays in and the propensity for humans to vote for that player. In 2017-18, Stephen Curry was clearly not the 5th or 6th best guard in the League, but he made the 3rd team because he played only 51 games due to injury. In 2018-19 Lebron James similarly made the 3rd team as he sat out the end of the season after 55 games.
+
+My model predicts that DeMarcus Cousins ought to have been the 1st Team All-NBA Center in 2018, and by a decent margin. But he played only 48 games, suffering a season-ending injury like Steph and Lebron. He received one vote for the 3rd team.
+
+Anthony Davis suffered an injured that effectively sidelined him after participating in his 41st game of the 2018-19 season. He would miss long stretches of games, playing with restrictions on the few occasions he would participate moving forward. He also would receive only a single 3rd team vote.
 
 # First headline stuff n stuff
-You'll often hear this advice given to players who find themselves in a rut, chasing an elusive promotion. Those offering speed as a solution will often point out, "Look at how fast Grand Champion players are." And they say this because it makes a great deal of sense. You can even find data from [calculated.gg](http://calculated.gg/) that could support this point of view.
+First of all, the linear regression does an absolutely awful job of ranking players. [calculated.gg](http://calculated.gg/) Presently the .
 
 ![Graph](/img/speeds.png){: .center-block :}
 
 
-Restating things more technically, speed and player rank have a **0.96** correlation. Given that the scale tops out at 1.0, that correlation is massive in the world of statistics. Faster play equals higher rank. And as even stronger data, shooting percentage has a **-0.97** correlation. Meaning you could even more confidently conclude that as players gain rank they become worse shooters.  
+A paragraph of stuff.  
 
-Except that's ridiculous. We all know players are much better shooters as you climb the ladder. It just so happens that the number of made saves rises even more quickly than the number of shots placed on net. Shot accuracy actually rises dramatically. 
+More stuff and stuff.
 
-Correlation from one metric isn't telling us even close to the whole story here. Such a narrow focus leads to absurdity. We need to broaden our view.
-
-Focusing on averages we left the idea of variance out in the cold. Looking back at our distributions of player average speeds we can see that there is a non-trivial amount of overlap between the lowly Silver 1 population and the Grand Champions(*1580 average MMR*). Interestingly, the overlap occurs such that around 1/6th of the players in Silver 1 are playing at average speeds *faster* than about 1/4th of Grand Champions. To put it another way, you should expect the fastest **Silver** in a 3v3 lobby to be **playing faster than the slowest Grand Champion** in a 2v2 match a staggering **71% of the time**.
-
-Clearly, `faster =/= better`.
-
-# What's really going on then?
-We're far better off asking questions with more nuance if we want to understand what this correlation between speed and rank is hinting at. That correlation lets us know that higher ranked players are moving more quickly on average, but looking at a broader scope of variables will help us understand **how** they do it. 
-
+# Tree Based Regression
+The tree-based model seems to perform more sensibly, but not without it's own set of issues. Encouragingly it finds the top seven players, suffering a bit  Validating the model on data from the 2017-18 NBA Season sees it predicting that DeMarcus Cousins would 
 ![Graph](/img/speed chart.png){: .center-block :}
 
-Taking a look at this graph we see Gold 1 is the rank where players spend the lowest proportion of their time moving at speeds throttle alone can't reach. Conversely, Grand Champions spend more than half of their time traveling at speeds that require using wavedashes, dodges or just good-old-fashioned boost. 
+Paragraphs of information.
 
-It's unsurprising then that GCs consistently have the *lowest* average boost level. Even though they consistently collect the *highest* number of small boost pads as they move, they use it as quickly as they pick it up. Efficiently cruising and collecting in massive quantities like a baleen whale at lunch time.
-
-But boost has more than one use. Often GCs use their boost to maintain a glide at high speeds, occasionally boosting to make the leap to supersonic, attacking when the opportunity presents itself. But possibly more importantly, they boost to recover quickly after those inevitable situations that require any player to slow down. As it turns out, minimizing the amount of time you're moving slowly is even more highly correlated with rank than raw speed. A whopping **0.98**.
-
-This important role for boost makes most sense when we consider positioning. While most of us appreciate the value of positioning, it can be easily lost on us how large a role acceleration plays. Increasing your acceleration has an **exponential** effect on positioning. I'm saying that literally, though I'll leave the Physics equations as proof for another day.
-
-If anything the simple, "drive faster" would be better off replaced with, "drive very slowly less often".
-
-Seeing highly ranked players driving quickly shouldn't convince us that the key to ranking up is something that starts with "drive faster". Driving quickly is great, but speed is a symptom of success. It's not the cause. As we know, leaving out key factors can lead to some absurd conclusions.
-
-### Some food for thought
-
-I know that many people who've read this far are thinking, "David, 'play faster' isn't meant literally. It's about decision making and aggression. Do whatever you're going to do, but do it quickly."
-
-But rarely do you hear, "be decisive". I digress.
-
-If it's true that sacrificing the quality of your decisions in trade for a higher speed with which you enact them is the path to success, then our data should support it. If it's better to leap without looking then on average we should expect GCs to spend more time on the offense, forsaking the option to fall back and continue considering your options like those Platinum-tier small-brains.
-
-The data *does* show GCs spend the most time in the attacking third! 
-
+### Another visualization
 ![Graph](/img/attacking_third.png)
 
-But they do so by a slim and nearly meaningless margin. It turns out this game is complicated, and perhaps extremely basic advice is not only useless but detrimental.
+Stuff about that visualization.
 
-# So what is my advice if not "play faster"?
-Ranking up in Rocket League is difficult. More than anything, I believe recognizing Soccar as a complex and intricate sport is a first step toward developing a successful playstyle. With so many variables to consider at any given moment of a match, I have to strongly caution against any strategy as simplistic as turning your brain off and charging in. What should you do instead? **Think more. Slowly.**
+# In closing
+Summary of stuff.
 
-### Replay Analysis
+### Ideas to improve the model
 
-For anyone who doesn't watch their game-replays back, you'll be blown away at how many times you'll spot yourself doing something in the heat of the moment where you'll say, "What was I thinking?" Finding a handful of glaring mistakes you can start to correct is going to be much more useful than vaguely attempting to speed up. 
+Using all of the data gathered for every position, not just Centers. Perhaps this would provide insight into what voters view as being a good basketball player in a general sense, and not only what has historically been done by Centers because it was what was expected in that role.
 
-Analyzing your replays provides you the time to reflect and consider your options in a way that a professional player could probably do in milliseconds. That's fine. These players have honed their abilities to make pro-level decisions quickly. The rest of us don't have that power. Yet 
+### The curious case of Anthony Davis
+Several oddities are brought to light when we consider the odd case of Anthony Davis. In the 2017-18 season he was considered to be a Power Forward rather than a Center according to [BasketballReference.com](https://www.basketball-reference.com/players/d/davisan02.html#all_pbp) by a 51% to 49% margin. But voters simply saw him as the best candidate for 1st Team All-NBA at the Center position. The model never had the chance to even consider him.
 
-Your superpower is not being confined by the dictates of a ticking in-game clock. Without that constraint you're capable of coaching yourself to greatness. Drive faster and think less? How about drive smarter and think differently?
+And although our data does regard him as a Center during the 2018-19 season, something our data doesn't account for is that he demanded a trade. To say it was perceived poorly would be understatement. Despite being the best Center in the minds of many, he received only a single 3rd team vote. Using NLP to analyze articles and social media posts for sentiment might allow for the ability to address situations like Anthony Davis only receiving a single 3rd team vote
 
-"Play faster" isn't without merit, and its proponents aren't fools. But it's crap advice.
+Perhaps using data from all Power Forwards and Centers and using their position estimates as features might be possible. It sounds like it may create more issues than it solves in the short term.
