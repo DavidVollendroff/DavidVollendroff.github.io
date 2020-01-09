@@ -27,7 +27,7 @@ A big factor in making good predictive models is the amount and quality of avail
 This manifests itself with the fact that..
 
 ### Nikola Jokić's passing is literally off the charts
-When Nikola Jokić earned his place as an All-NBA Center for the first time he did so while dishing out more assists than anyone since Wilt Chamberlain. The modern All-NBA voting system has only existed since the '89-'90 season, and therefore so does our corresponding statistical data. So when we look at how our model values points and assists there is _no_ point of reference.
+When Nikola Jokić earned his place as an All-NBA Center for the first time he did so while dishing out more assists than anyone since Wilt Chamberlain. The modern All-NBA voting system has only existed since the '89-'90 season, and therefore so does our corresponding statistical data. So when we look at how our model values points and assists there is _no_ point of reference for his __7.3__ assists per game.
 
 ![Graph](/img/PTS_AST.png){: .center-block :}
 
