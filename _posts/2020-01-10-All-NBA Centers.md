@@ -53,6 +53,8 @@ Defining accuracy for these sorts of predictions is difficult, because >90% of C
 
 Considering that my tree-based model correctly predicted the top seven vote recipients for last year, with only Davis and Jokić out of perfect order, I'm lead to believe it isn't completely without predictive power.
 
+But..
+
 ## If you've read this far, consider holding off on placing your bets for another week
 
 I'm currently working on a follow-up blog post that uses data from players of all positions to more broadly determine what good play is, rather than what has been traditional work for a Center. Preliminary results show that adding this extra data helps not only better classify non-traditional Centers, but also to eliminate the propensity for models to ignore injury.
