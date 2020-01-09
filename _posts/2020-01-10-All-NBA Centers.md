@@ -51,7 +51,7 @@ There simply aren't enough examples in the Centers dataset to properly learn thi
 ## On accuracy
 Defining accuracy for these sorts of predictions is difficult, because >90% of Centers receive no votes whatsoever in a given year, and only three receive recognition. There is no comprehensive archive of voting numbers, only award results. So a baseline classification model would guess that no one makes the All-NBA Team and be correct ~98% of the time. As it is my models use random forest regression and linear regression to rank players by something akin to a vote-worthiness metric. One fun note; linear models are absolutely garbage for this sort of task. Dwight Howard for 1st Team in 2018?? I'm sure you won't mind if I don't mention these trash factories again.
 
-Considering that my tree-based model correctly predicted the top seven vote recipients for last year, with only Davis and Jokić out of perfect order, leads me to believe it isn't completely without predictive power.
+Considering that my tree-based model correctly predicted the top seven vote recipients for last year, with only Davis and Jokić out of perfect order, I'm lead to believe it isn't completely without predictive power.
 
 ## If you've read this far, consider holding off on placing your bets for another week
 
