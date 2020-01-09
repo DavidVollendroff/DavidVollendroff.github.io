@@ -39,11 +39,14 @@ This error in judgment as well as one other weakness keeps my model from nailing
 
 The one other glaring miscalculation my model seems prone to make is that of failing to recognize the impact of injuries on a players chances at receiving voter support.
 
-Anthony Davis suffered an injured that effectively sidelined him after participating in his 41st game of the 2018-19 season. He would miss long stretches of games, playing with restrictions on the few occasions he would participate moving forward. The fact that he demanded a trade with multiple years left on his contract seemed to sour voters as well. He also would receive only a single 3rd team vote, rather than the 2nd Team honors my model anticipated from his statistics.
+Anthony Davis suffered an injured that effectively sidelined him after participating in his 41st game of the 2018-19 season. He would miss long stretches of games, playing with restrictions on the few occasions he would participate moving forward. And demanding a trade with multiple years left on his contract didn't help his case with voters, I'm sure.
+
+Model Predicted: __2nd Team Honors__
+Voters Said: a single 3rd team vote
 
 Similarly, my model says DeMarcus Cousins ought to have been the 1st Team All-NBA Center in 2018. And by a very large margin. But Cousins played only 48 games before suffering a season-ending injury. In reality he received only vote, and it was for the 3rd team.
 
-There simply aren't enough examples in the Centers dataset to properly learn this rule of thumb. Spaces on the All-NBA teams seem to be significantly swayed by productivity more than raw talent. It makes one think of the old adage, "The best ability is availability."
+There simply aren't enough examples in the Centers dataset to properly learn this rule of thumb. Spaces on the All-NBA teams seem to be significantly determined by productivity more than raw talent. It makes one think of the old adage, "The best ability is availability."
 
 # Thoughts and considerations
 ## On accuracy
