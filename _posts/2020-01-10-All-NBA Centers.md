@@ -42,6 +42,7 @@ The one other glaring miscalculation my model seems prone to make is that of fai
 Anthony Davis suffered an injured that effectively sidelined him after participating in his 41st game of the 2018-19 season. He would miss long stretches of games, playing with restrictions on the few occasions he would participate moving forward. And demanding a trade with multiple years left on his contract didn't help his case with voters, I'm sure.
 
 Model Predicted: __2nd Team Honors__
+
 Voters Said: a single 3rd team vote
 
 Similarly, my model says DeMarcus Cousins ought to have been the 1st Team All-NBA Center in 2018. And by a very large margin. But Cousins played only 48 games before suffering a season-ending injury. In reality he received only vote, and it was for the 3rd team.
