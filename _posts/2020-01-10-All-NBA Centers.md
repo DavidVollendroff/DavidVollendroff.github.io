@@ -31,7 +31,7 @@ When Nikola Jokić earned his place as an All-NBA Center for the first time he d
 
 ![Graph](/img/PTS_AST.png){: .center-block :}
 
-It should be no wonder then that when asked to evaluate players in 2019, where Jokić's assist numbers were again were off the charts, he's misclassifed as being the 4th most worthy candidate instead of the best.
+It should be no wonder then that when asked to evaluate players in 2019, where Jokić's assist numbers were again were off the charts, he's misclassified as being the 4th most worthy candidate instead of the best.
 
 This error in judgment as well as one other weakness keeps my model from nailing last year's voting results near perfectly. That blind spot is..
 
@@ -54,6 +54,6 @@ Defining accuracy for these sorts of predictions is difficult, because >90% of C
 
 Considering that my tree-based model correctly predicted the top seven vote recipients for last year, with only Davis and Jokić out of perfect order, leads me to believe it isn't completely without predictive power.
 
-## If you've read this far, consider hold off on placing your bets for another week
+## If you've read this far, consider holding off on placing your bets for another week
 
 I'm currently working on a follow-up blog post that uses data from players of all positions to more broadly determine what good play is, rather than what has been traditional work for a Center. Preliminary results show that adding this extra data helps not only better classify non-traditional Centers, but also to eliminate the propensity for models to ignore injury. Not only does it improve accuracy with regard to ranking Centers, but it seems to do an incredible job of predicting *all of the voting outcomes* for the entire All-NBA selection process. Kristian Winfield wrote [an excellent piece](https://www.sbnation.com/2019/5/23/18637496/all-nba-voting-winners-losers-damian-lillard-kemba-walker-klay-thompson-reaction) for SBNation describing the multimillion-dollar ramifications these votes can have, and with this in mind I'll take a look at predictions for every position and the implications they have for players and teams alike. 
