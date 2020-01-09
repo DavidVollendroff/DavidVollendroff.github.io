@@ -11,7 +11,7 @@ tags: [NBA, Machine Learning, Sports Prediction]
 ![Graph](/img/predictions.png){: .center-block :}
 Congratulations to Karl-Anthony Towns, Joel Embiid and Andre Drummond on being named to the 2020 All-NBA squads.
 
-If only it were that simple..
+If only it were that simple.
 
 While these are the honest results of my predictive models, there are some things to consider before you go placing bets in your favorite sports book.
 
@@ -20,34 +20,32 @@ While these are the honest results of my predictive models, there are some thing
 Some of the difficulty involved in modeling which Centers are likely to be named to the 2020 All-NBA Teams comes from the fact that the role of the Center in modern basketball isn't what it used to be. Consider Anthony Davis, the 1st Team Center in 2018. According to [BasketballReference](https://www.basketball-reference.com/players/d/davisan02.html#all_pbp) he was considered to be a Power Forward rather than a Center by a 51% to 49% margin. The data I scraped from the site reflected his definition as a Power Forward, and my models never had the chance to even consider him. But in 2018 voters simply saw him as the best available candidate for 1st Team All-NBA at the Center position.
 
 ### The scarcity of data
-Furthermore, the role that a Center plays in the modern NBA is different than it has been historically in a non-trivial way. And this can cause issues in ways you might not expect. Because when he look to predict the future, we look back at historical data first.
-
-A big factor in making good predictive models is the amount and quality of available training data. But because fewer players are playing the Center position than in years past, and there is only one spot available per All-NBA Team, we have precious-little data to work with.
+Furthermore, the role that a Center plays in the modern NBA is different than it has been historically in a non-trivial way. And a big factor in making good predictive predictions of the future is the amount and quality of historical training data. But because fewer players are playing the Center position than in years past, and there is only one spot available per All-NBA Team, we have precious-little data to work with.
 
 This manifests itself with the fact that..
 
 ### Nikola Jokić's passing is literally off the charts
-When Nikola Jokić earned his place as an All-NBA Center for the first time he did so while dishing out more assists than anyone since Wilt Chamberlain. The modern All-NBA voting system has only existed since the '89-'90 season, and therefore so does our corresponding statistical data. So when we look at how our model values points and assists there is _no_ point of reference for his __7.3__ assists per game.
+When Nikola Jokić earned his place as an All-NBA Center for the first time he did so while dishing out more assists than anyone since Wilt Chamberlain. But the modern All-NBA voting system has only existed since the '89-'90 season, and therefore Wilt's stats are unknown to our model. So when we examine how it learned to value playmaking there is _no_ point of reference for Jokić's __7.3__ assists per game.
 
 ![Graph](/img/PTS_AST.png){: .center-block :}
 
 It should be no wonder then that when asked to evaluate players in 2019, where Jokić's assist numbers were again were off the charts, he's misclassified as being the 4th most worthy candidate instead of the best.
 
-This error in judgment as well as one other weakness keeps my model from nailing last year's voting results near perfectly. That blind spot is..
+This error in judgment as well as one other weakness keeps my model from nailing last year's voting results near perfectly. That other blind spot is..
 
 ### Injuries
 
 The one other glaring miscalculation my model seems prone to make is that of failing to recognize the impact of injuries on a players chances at receiving voter support.
 
-Anthony Davis suffered an injured that effectively sidelined him after participating in his 41st game of the 2018-19 season. He would miss long stretches of games, playing with restrictions on the few occasions he would participate moving forward. And demanding a trade with multiple years left on his contract didn't help his case with voters, I'm sure.
+Anthony Davis suffered an injured that effectively sidelined him after participating in his 41st game of the 2018-19 season. He would miss long stretches of games, playing with heavy minutes-restrictions on the few occasions he would participate thereafter. And demanding a trade with multiple years left on his contract didn't help his case with voters, I'm sure.
 
 Model Predicted: __2nd Team Honors__
 
 Voters Said: a single 3rd team vote
 
-Similarly, my model says DeMarcus Cousins ought to have been the 1st Team All-NBA Center in 2018. And by a very large margin. But Cousins played only 48 games before suffering a season-ending injury. In reality he received only vote, and it was for the 3rd team.
+Similarly, my model says DeMarcus Cousins ought to have been the 1st Team All-NBA Center in 2018. And by a very large margin. But Cousins suffered a season-ending injury after playing only 48 games. So in reality he received only vote, and it was for the 3rd team.
 
-There simply aren't enough examples in the Centers dataset to properly learn this rule of thumb. Spaces on the All-NBA teams seem to be significantly determined by productivity more than raw talent. It makes one think of the old adage, "The best ability is availability."
+There simply aren't enough examples in the Centers dataset to properly learn this voter preference. Spaces on the All-NBA teams seem to be  determined by productivity more than raw talent. It makes one think of the old adage, "The best ability is availability."
 
 # Thoughts and considerations
 ## On accuracy
