@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All-NBA Centers in 2020
-subtitle: Using traditional and advanced metrics to model voting
+subtitle: Using machine-learning to model voting
 bigimg: /img/centers.jpg
 image: /img/shaq_logo.png
 tags: [NBA, Machine Learning, Sports Prediction]
