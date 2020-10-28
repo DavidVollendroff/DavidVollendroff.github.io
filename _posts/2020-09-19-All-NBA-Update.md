@@ -2,8 +2,8 @@
 layout: post
 title: All-NBA Voting: Part 2
 subtitle: Addressing shortcomings of the "Centers Only" approach
-bigimg: /img/2020_all_nba.jfif
-image: /img/damian_luka.jfif
+bigimg: /img/2020_all_nba.jpg
+image: /img/damian_luka.jpg
 tags: [NBA, Machine Learning, Sports Prediction]
 ---
 
