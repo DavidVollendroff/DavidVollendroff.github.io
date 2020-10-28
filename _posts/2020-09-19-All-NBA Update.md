@@ -1,6 +1,6 @@
 ---
 layout: post
-title: All-NBA Voting: Part 2
+title: All-NBA Voting Part 2
 subtitle: Addressing shortcomings of the "Centers Only" approach
 bigimg: /img/2020_all_nba.jpg
 image: /img/damian_luka.jpg
@@ -8,7 +8,7 @@ tags: [NBA, Machine Learning, Sports Prediction]
 ---
 
 # 2020 All-NBA Voter Prediction
-![Graph](/img/damian_luka.jfif){: .center-block :}
+![Graph](/img/damian_luka.jpg){: .center-block :}
 Kristian Winfield wrote [an excellent piece](https://www.sbnation.com/2019/5/23/18637496/all-nba-voting-winners-losers-damian-lillard-kemba-walker-klay-thompson-reaction) for SBNation detailing the multimillion-dollar ramifications these votes can have. And now that the official voting results are in, let's take a look at what understanding and added value we can generate through Data Science.
 
 ## The Trouble With Centers 
