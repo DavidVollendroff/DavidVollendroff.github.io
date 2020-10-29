@@ -18,7 +18,7 @@ In [my previous](https://davidvollendroff.github.io/2020-01-10-All-NBA-Centers/)
 A quick and dirty stroll through the data had given me a set of predictions for the coming season. But with knowledge of the domain, a few things just didn't look right..
 
 ### What is a Center?
-For starters, Anthony Davis is conspicuously missing. And this is because according to [basketball-reference](https://www.basketball-reference.com/players/d/davisan02.html#pbp::none) he actually spent 51% of his time at Power Forward. And because he's listed as a Power Forward he doesn't show up in the Centers-only dataset used. But problematically for us, voters had no such problem calling him a Center. The best in the NBA at that. Twice.
+For starters, Anthony Davis is conspicuously missing. And this is because according to [basketball-reference](https://www.basketball-reference.com/players/d/davisan02.html#pbp::none) he actually spent 51% of his time at Power Forward. And because he's listed as a Power Forward he doesn't show up in the Centers-only dataset used. But problematically for us, voters had no such issue with calling him a Center. In fact, prior to this season he'd been named the best "Center" in the NBA __twice__.
 
 And beyond this weirdness of voters having positional flexibility in voting, some other oddities arose in part because there have been Centers recently with historically unprecedented performances.
 
