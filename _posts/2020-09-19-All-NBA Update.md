@@ -34,9 +34,9 @@ Furthermore, two huge factors in the accuracy of predictions are the amount and 
 
 Luckily we can do _much_ better
 
-# Widen our view
+## Widen our view
 
-## Throwing out positions
+### Throwing out positions
 Instead of building a model that only cares about what it means to be an All-NBA Center, what if instead we ask, "What does it mean to be an All-NBA __player__?" With a flexible definition of "Center", plus using statistics from __all__ NBA players irrespective of position, we go from predictions of:
 __1st Team__ Karl-Anthony Towns
 __2nd Team__ Joel Embiid
@@ -50,12 +50,41 @@ __3rd Team__ Rudy Gobert
 __Runner Up__ Joel Embiid
 Which turns out to be perfectly correct.
 
-## The importance of domain knowledge
-Originally the idea was that 
+## Predicting other positions
+Along the way we actually ended up building a system for predicting voting outcomes for all positions.
 
-# Thoughts and considerations
-## On accuracy
-Defining accuracy for these sorts of predictions is difficult in part because >90% of Centers receive no votes whatsoever in a given year, and only three receive recognition. There is no comprehensive archive of voting numbers, only award results. So a baseline classification model would guess that _every_ player it considered would fail to make an All-NBA Team and that would be correct ~98% of the time. As it is, my models use random forest regression and linear regression to rank players by something akin to a vote-worthiness metric. One fun note; linear models are absolutely garbage for this sort of task. Dwight Howard for 1st Team in 2018?? I'm sure you won't mind if I don't mention these trash factories again.
+## Learning along the way
+My favorite aspect of this project was the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight.
+
+### Error404: DataSet Not Found
+For starters. The data set didn't exist as some perfect little CSV file. I'd have to gather, join, process and clean it all myself. And before that I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. From traditional box scores, advanced metrics, and even team statistics. Some of the voters for this individual award can't be persuaded to ignore team success. I credit my success with putting everything together to my ability to read the Pandas documentation.
+
+### The strange world of voting
+There is no comprehensive archive of voting numbers, only award results. That means all we've got for supervision in this supervised machine-learning exercise are the three players who were the top three vote recipients. The hundreds of other players are labeled as equally non-winners. 
+
+And according to my research, there is no ready-made loss function that suits our purpose perfectly here. One vote cast for a player is at the expense of another. Even if a loss function based on rank order were easily available, within the limitations of our data, reordering players 4-400 wouldn't change the loss values whatsoever. Hardly ideal.
+
+But with this in mind I converted the "labels" of the dataset, that is their "Vote-worthiness" as follows:
+
+__Named 1st Team__ = 5 points
+__Named 1st Team__ = 3 points
+__Named 1st Team__ = 1 point
+__All Else__ = 0 points
+
+There's a reason behind this particular schema. If we assume that the 100 voters reach the "right" answer when determining winners we end up with something quite interesting.
+By labeling players in this way we are essentially recreating the ballot of a hypothetical voter who over 20 years had never cast a single vote, allotted a single point, other than perfectly. It's like having one voter, but one who has never been wrong.
+
+Then by using a random forest regressor model we can ask our voter how worthy several players are and make comparisons.
+
+### Decisions in the face of uncertainty
+
+Stuff about monkey-patching the old library and why I did it.
+
+So a baseline classification model would guess that _every_ player it considered would fail to make an All-NBA Team and that would be correct ~98% of the time. As it is, my models use random forest regression and linear regression to rank players by something akin to a vote-worthiness metric. One fun note; linear models are absolutely garbage for this sort of task. Dwight Howard for 1st Team in 2018?? I'm sure you won't mind if I don't mention these trash factories again.
+
+### Close calls and toss ups
+
+
 
 Considering that my tree-based model correctly predicted the top seven vote recipients for last year, with only Davis and Jokić out of perfect order, I'm lead to believe it isn't completely without predictive power.
 
