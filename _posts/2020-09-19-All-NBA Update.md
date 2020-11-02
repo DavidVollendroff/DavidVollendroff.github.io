@@ -30,13 +30,13 @@ Nikola Jokić is a problem. Not only in basketball slang sense, but also because
 No Center in the history of basketball has ever before breathed that rarified air. It isn't all that surprising then that my original model significantly underestimates how voters value what he contributes to his team. He's facilitating the offense in a way no "big man" ever has.
 
 ### S p a r s e    D a t a
-Furthermore, two huge factors in the accuracy of predictions are the amount and quality of historical reference data. There is only one spot available for a Center on each All-NBA Team, so we have precious-little data to work with. 60 award winners over a 20 year period simply isn't enough data for the model to learn from. It can give you reasonable predictions, correctly identiftying the top seven vote recipients. But only after accounting for Davis and Jokić does it order them correctly. The model still struggles with edge cases. Another important type of edge case, discussed in [greater detail](https://davidvollendroff.github.io/2020-01-10-All-NBA-Centers/) in the original post, is the effect injuries have on swaying voters. So few All-NBA-level Centers have succumbed to injury at inopportune times that the model has no chance of dealing with those rare occurrences where they actually do.
+Furthermore, two huge factors in the accuracy of predictions are the amount and quality of historical reference data. There is only one spot available for a Center on each All-NBA Team, so we have precious-little data to work with. 60 award winners over a 20 year period simply isn't enough data for the model to learn from. It can give you reasonable predictions, correctly identifying the top seven vote recipients. But only after accounting for Davis and Jokić does it order them correctly. 
+
+And it isn't only a "Power Forward" playing Center or a Center posting statistics in an unprecedented way that causes issues with sparse data. Another important type of edge case, discussed in [greater detail](https://davidvollendroff.github.io/2020-01-10-All-NBA-Centers/) in the original post, is the effect injuries have on swaying voters. So few All-NBA-level Centers have succumbed to injury at inopportune times that the model has no chance of dealing with those rare occurrences where they actually do.
 
 Luckily we can do _much_ better
 
-## Widen our view
-
-### Throwing out positions
+## Throwing out positions
 Instead of building a model that only cares about what it means to be an All-NBA Center, what if instead we ask, "What does it mean to be an All-NBA __player__?" With a flexible definition of "Center", plus using statistics from __all__ NBA players irrespective of position, we go from predictions of:
 __1st Team__ Karl-Anthony Towns
 __2nd Team__ Joel Embiid
@@ -48,13 +48,10 @@ __1st Team__ Anthony Davis
 __2nd Team__ Nikola Jokić
 __3rd Team__ Rudy Gobert
 __Runner Up__ Joel Embiid
-Which turns out to be perfectly correct.
-
-## Predicting other positions
-Along the way we actually ended up building a system for predicting voting outcomes for all positions.
+Which turns out to be __perfectly__ correct.
 
 ## Learning along the way
-My favorite aspect of this project was the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight.
+My favorite aspect of this project was the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project and each taught or reinforced something about the realities of Data Science.
 
 ### Error404: DataSet Not Found
 For starters. The data set didn't exist as some perfect little CSV file. I'd have to gather, join, process and clean it all myself. And before that I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. From traditional box scores, advanced metrics, and even team statistics. Some of the voters for this individual award can't be persuaded to ignore team success. I credit my success with putting everything together to my ability to read the Pandas documentation.
@@ -71,27 +68,41 @@ __Named 1st Team__ = 3 points
 __Named 1st Team__ = 1 point
 __All Else__ = 0 points
 
-There's a reason behind this particular schema. If we assume that the 100 voters reach the "right" answer when determining winners we end up with something quite interesting.
-By labeling players in this way we are essentially recreating the ballot of a hypothetical voter who over 20 years had never cast a single vote, allotted a single point, other than perfectly. It's like having one voter, but one who has never been wrong.
+There's a reason behind this particular schema. Because by definition the players who received the awards are the **right** choices. And by labeling players in the way we have, we are essentially recreating the ballot of a hypothetical voter who over 20 years hasn't given a single point to the wrong player. 
 
-Then by using a random forest regressor model we can ask our voter how worthy several players are and make comparisons.
+It's like having the voting record of only one person. But one who has never been wrong. And with that we can construct a Random Forest regression model to ask ourselves, "What would the perfect voter's ballot look like?" We end up with a 'vote-worthiness' metric for all players with which we can make predictions.
 
 ### Decisions in the face of uncertainty
 
-Stuff about monkey-patching the old library and why I did it.
+Considering that the impact some of these award races might have, it made sense to me to try and incorporate some measure of confidence in the predictions the model outputs. Unfortunately for me Scikit-Learn doesn't(at the time of publication at least) have tools at hand for retrieving confidence intervals in Random Forest models.
 
-So a baseline classification model would guess that _every_ player it considered would fail to make an All-NBA Team and that would be correct ~98% of the time. As it is, my models use random forest regression and linear regression to rank players by something akin to a vote-worthiness metric. One fun note; linear models are absolutely garbage for this sort of task. Dwight Howard for 1st Team in 2018?? I'm sure you won't mind if I don't mention these trash factories again.
+However, I was able to find an open-source library called ForestCI that does have that functionality! But it was also terrifically out of date. Hours and hours of Googling later and I was able to perform something I have learned is called "monkey-patching" in order to make the library function for me. That's a topic for an entire other post.
 
-### Close calls and toss ups
+## Predicting Awards at Every Position
 
 
+## Future avenues of exploration
+Given the amount of time and energy invested into this project I am happy with where it stands. But that doesn't mean that if I had unlimited time and resources I couldn't find ways to improve upon what I've done here.
 
-Considering that my tree-based model correctly predicted the top seven vote recipients for last year, with only Davis and Jokić out of perfect order, I'm lead to believe it isn't completely without predictive power.
+### Podium Loss
+For starters, I think the best improvement might come from what I would call a "podium" model. That is, calculating loss in a batch over all players in a given season while predicting the three players who would 'make the podium'. But because I was completely unable to find anything like this in _any_ machine-learning framework I researched I will likely never know.
 
-But..
+Forgive me for saying, but the effort required to fabricate my own such function seems like the sort of thing that I ought to be paid for.
 
-## If you've read this far, consider holding off on placing your bets for another week
+### Hyperparameter Tuning
+In hindsight I realize that a significant portion of time was spent working on high-level and domain-knowledge influenced factors. So tuning my predictions often ended up being focused on having a 'good enough' model and determining where errors in the end product were coming from. 
 
-I'm currently working on a follow-up post that uses data from players of all positions to more broadly determine what good play is, rather than what has been traditional work for a Center. Preliminary results show that adding this extra data helps not only better classify non-traditional Centers, but also to eliminate the propensity for models to ignore injury.
+I think this was a great method for making progress. I was able to refine my model and adjust my thinking rather than sitting back to watch a hyperparameter sweep that might take ages. But I see little harm from performing more hyperparameter tuning in the future. I anticipate there would be improvement, if only minimal.
 
-Excitingly, not only does it improve accuracy with regard to ranking Centers, but it seems to do an incredible job of predicting *all of the voting outcomes* for the entire All-NBA selection process. Kristian Winfield wrote [an excellent piece](https://www.sbnation.com/2019/5/23/18637496/all-nba-voting-winners-losers-damian-lillard-kemba-walker-klay-thompson-reaction) for SBNation detailing the multimillion-dollar ramifications these votes can have. And with this in mind, in my next post I'll take a look at predictions for every position and the implications they have for players and teams alike. 
+### Interpretation of Random Forests
+Given that I've used a Tree-Based model, I don't have to worry much about colinearity of things like __Player Efficiency Rating__ and __Wins Above Replacement__ skewing predictions. ____But___ I have read that it can lead to lowering reported levels of importance for other related features. And this can hinder interpretation. 
+
+Fortunately a there is a technique to calculate what are called "permutation importances" which are generally more reliable. The calculated permutation importances of my model are shown below
+
+![Graph](/img/importances.png){: .center-block :}
+
+Buuuuuuut, even with all of the things permutation importance does well, ["it tends to over-estimate the importance of correlated variables"](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-307#citeas). Luckily there exists another method that works fantastically to fix even this issue!
+
+But unfortunately __Drop-Column Importance__ calculation is computationally very expensive. But it remains true that springing for a fancier EC2 instance would in fact drive easier model interpretation. Which could go a long way when examining some of the stranger predictions the model makes.
+
+Or put another way, it could help shine a light on the strange preferences human voters often have.
