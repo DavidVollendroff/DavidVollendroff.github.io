@@ -50,11 +50,15 @@ __3rd Team__ Rudy Gobert
 __Runner Up__ Joel Embiid
 Which turns out to be __perfectly__ correct.
 
-## Learning along the way
-My favorite aspect of this project was the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project and each taught or reinforced something about the realities of Data Science.
+Certainly I'm happy with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
 
-### Error404: DataSet Not Found
-For starters. The data set didn't exist as some perfect little CSV file. I'd have to gather, join, process and clean it all myself. And before that I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. From traditional box scores, advanced metrics, and even team statistics. Some of the voters for this individual award can't be persuaded to ignore team success. I credit my success with putting everything together to my ability to read the Pandas documentation.
+## Learning along the way
+My favorite aspect of this project was the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the practical realities of Data Science.
+
+### Error404: DataSetNotFound
+For starters. The data set didn't exist as some perfect little _'data.csv'_ file. I'd have to gather, join, process and clean it all myself. And even before all of that, I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. In the end I incorporated sources of traditional box scores, advanced metrics, and even team statistics. I decided to include team statistics because I've personally heard many of the voters for this _individual award_ declare they won't ignore team records.
+
+My ability to successfully create the data set which is project uses is essentially my ability to __read the__ Pandas __documentation__. It's amazing how powerful the ability to read and the desire to learn can be when combined.
 
 ### The strange world of voting
 There is no comprehensive archive of voting numbers, only award results. That means all we've got for supervision in this supervised machine-learning exercise are the three players who were the top three vote recipients. The hundreds of other players are labeled as equally non-winners. 
@@ -84,7 +88,7 @@ However, I was able to find an open-source library called ForestCI that does hav
 ## Future avenues of exploration
 Given the amount of time and energy invested into this project I am happy with where it stands. But that doesn't mean that if I had unlimited time and resources I couldn't find ways to improve upon what I've done here.
 
-### Podium Loss
+### "Podium" Loss Function
 For starters, I think the best improvement might come from what I would call a "podium" model. That is, calculating loss in a batch over all players in a given season while predicting the three players who would 'make the podium'. But because I was completely unable to find anything like this in _any_ machine-learning framework I researched I will likely never know.
 
 Forgive me for saying, but the effort required to fabricate my own such function seems like the sort of thing that I ought to be paid for.
@@ -95,7 +99,7 @@ In hindsight I realize that a significant portion of time was spent working on h
 I think this was a great method for making progress. I was able to refine my model and adjust my thinking rather than sitting back to watch a hyperparameter sweep that might take ages. But I see little harm from performing more hyperparameter tuning in the future. I anticipate there would be improvement, if only minimal.
 
 ### Interpretation of Random Forests
-Given that I've used a Tree-Based model, I don't have to worry much about colinearity of things like __Player Efficiency Rating__ and __Wins Above Replacement__ skewing predictions. ____But___ I have read that it can lead to lowering reported levels of importance for other related features. And this can hinder interpretation. 
+Given that I've used a Tree-Based model, I don't have to worry much about colinearity of things like __Player Efficiency Rating__ and __Wins Above Replacement__ skewing predictions. ___But___ I have read that it can lead to lowering reported levels of importance for other related features. And this can hinder interpretation. 
 
 Fortunately a there is a technique to calculate what are called "permutation importances" which are generally more reliable. The calculated permutation importances of my model are shown below
 
@@ -103,6 +107,6 @@ Fortunately a there is a technique to calculate what are called "permutation imp
 
 Buuuuuuut, even with all of the things permutation importance does well, ["it tends to over-estimate the importance of correlated variables"](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-307#citeas). Luckily there exists another method that works fantastically to fix even this issue!
 
-But unfortunately __Drop-Column Importance__ calculation is computationally very expensive. But it remains true that springing for a fancier EC2 instance would in fact drive easier model interpretation. Which could go a long way when examining some of the stranger predictions the model makes.
+Unfortunately though, __Drop-Column Importance__ calculation is computationally very expensive. Still, it remains true that springing for a fancier EC2 instance would in fact drive easier model interpretation. Which could go a long way when examining some of the stranger predictions the model makes.
 
 Or put another way, it could help shine a light on the strange preferences human voters often have.
