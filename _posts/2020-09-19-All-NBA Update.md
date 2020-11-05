@@ -85,13 +85,10 @@ But with this in mind I converted the "labels" of the dataset, that is their "Vo
 
 __Named 1st Team__ = 5 points
 {: style="text-align: center"}
-
 __Named 2nd Team__ = 3 points
 {: style="text-align: center"}
-
 __Named 3rd Team__ = 1 point
 {: style="text-align: center"}
-
 __Otherwise__ = 0 points
 {: style="text-align: center"}
 
