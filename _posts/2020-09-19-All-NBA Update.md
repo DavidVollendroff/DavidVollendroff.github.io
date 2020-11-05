@@ -50,7 +50,11 @@ __3rd Team__ Rudy Gobert
 __Runner Up__ Joel Embiid
 Which turns out to be __perfectly__ correct.
 
-Certainly I'm happy with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
+In fact when we end up with the ability to make predictions for all positions
+![Graph](/img/all_positions.png){: .center-block :}
+Our predictions suggest Lillard would have been more likely to be named to the 1st Team over Dončić. As it turned out, Lillard was named to the 2nd Team behind Dončić. I am encouraged to see the uncertainty levels in our predictions are consistent with this eventuality.
+
+I certainly am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
 
 ## Learning along the way
 My favorite aspect of this project was the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the practical realities of Data Science.
