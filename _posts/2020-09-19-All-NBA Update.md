@@ -18,16 +18,18 @@ In [my previous](https://davidvollendroff.github.io/2020-01-10-All-NBA-Centers/)
 A quick and dirty stroll through the data had given me a set of predictions for the coming season. But with knowledge of the domain, a few things just didn't look right..
 
 ### What is a Center?
-For starters, Anthony Davis is conspicuously missing. And this is because according to [basketball-reference](https://www.basketball-reference.com/players/d/davisan02.html#pbp::none) he actually spent 51% of his time at Power Forward. And because he's listed as a Power Forward he doesn't show up in the Centers-only dataset used. But problematically for us, voters had no such issue with calling him a Center. In fact, prior to this season he'd been named the best "Center" in the NBA __twice__.
+For starters, Anthony Davis is conspicuously missing. And this is because according to [basketball-reference](https://www.basketball-reference.com/players/d/davisan02.html#pbp::none) he actually spent 51% of his time at Power Forward. And because he's listed as a Power Forward he doesn't show up in the Centers-only dataset used. 
 
-And beyond this weirdness of voters having positional flexibility in voting, some other oddities arose in part because there have been Centers recently with historically unprecedented performances.
+Problematically for us, voters had no such issue with calling him a Center. In fact, prior to this season he'd been named the best "Center" in the NBA __twice__. This in spite of the fact that he self-identifies as a Power Forward.
+
+Beyond this weirdness of voters having positional flexibility in voting, some other oddities arose in part because Centers recently have turned in historically unprecedented performances.
 
 ### Since when can a Center pass like this?
-Nikola Jokić is a problem. Not only in basketball slang sense, but also because if you look at the model's valuation of points and assists you can see there is simply _no point of reference_ for Jokić's __7.3__ assists per game. 
+Nikola Jokić is a problem. Not only in basketball slang sense meaning he has to be respected on the court, but also because he confounds any model based on historical data. Looking at a partial dependence plot for the Centers-Only model, you can see there is simply _no point of reference_ for Jokić's __7.3__ assists per game. 
 
 ![Graph](/img/PTS_AST.png){: .center-block :}
 
-No Center in the history of basketball has ever before breathed that rarified air. It isn't all that surprising then that my original model significantly underestimates how voters value what he contributes to his team. He's facilitating the offense in a way no "big man" ever has.
+No Center in the history of basketball has ever before breathed that rarified air. Then it isn't all that surprising my original model significantly underestimates how voters value what he contributes. He's facilitating offense in a way no "big man" ever has.
 
 ### S p a r s e    D a t a
 Furthermore, two huge factors in the accuracy of predictions are the amount and quality of historical reference data. There is only one spot available for a Center on each All-NBA Team, so we have precious-little data to work with. 60 award winners over a 20 year period simply isn't enough data for the model to learn from. It can give you reasonable predictions, correctly identifying the top seven vote recipients. But only after accounting for Davis and Jokić does it order them correctly. 
@@ -50,11 +52,11 @@ __3rd Team__ Rudy Gobert
 __Runner Up__ Joel Embiid
 Which turns out to be __perfectly__ correct.
 
-In fact when we end up with the ability to make predictions for all positions
+In fact when we end up with the ability to make predictions for all positions. Below you can see the "Top 8" as determined by the expanded model which considers all players.
 
 ![Graph](/img/all_positions.png){: .center-block :}
 
-Our predictions suggest Lillard would have been more likely to be named to the 1st Team over Dončić. As it turned out, Lillard was named to the 2nd Team behind Dončić. I am encouraged to see the uncertainty levels in our predictions are consistent with this eventuality.
+Our predictions suggest Lillard would have been more likely to be named to the 1st Team over Dončić. As it turned out, Lillard was named to the 2nd Team behind Dončić. I am encouraged to see the uncertainty levels in our predictions are consistent with this possibility.
 
 I certainly am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
 
