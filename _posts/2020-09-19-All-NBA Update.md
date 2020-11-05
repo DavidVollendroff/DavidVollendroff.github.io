@@ -83,13 +83,13 @@ And according to my research, there is no ready-made loss function that suits ou
 
 But with this in mind I converted the "labels" of the dataset, that is their "Vote-worthiness" as follows:
 
-__Named 1st Team__ = 5 points
+<center>__Named 1st Team__ = 5 points
 
 __Named 2nd Team__ = 3 points
 
 __Named 3rd Team__ = 1 point
 
-__Otherwise__ = 0 points
+__Otherwise__ = 0 points</center>
 
 There's a reason behind this particular schema. Because by definition the players who received the awards are the **right** choices. And by labeling players in the way we have, we are essentially recreating the ballot of a hypothetical voter who over 20 years hasn't given a single point to the wrong player. 
 
