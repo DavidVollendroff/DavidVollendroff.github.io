@@ -25,7 +25,7 @@ Problematically for us, voters had no such issue with calling him a Center. In f
 Beyond this weirdness of voters having positional flexibility in voting, some other oddities arose in part because Centers recently have turned in historically unprecedented performances.
 
 ### Since when can a Center pass like this?
-Nikola Jokić is a problem. Not only in basketball slang sense meaning he has to be respected on the court, but also because he confounds any model based on historical data. Looking at a partial dependence plot for the Centers-Only model, you can see there is simply _no point of reference_ for Jokić's __7.3__ assists per game. 
+Nikola Jokić is a problem. Not only in basketball slang, meaning his presence has to be respected whenever he's on the court, but also because he confounds any model based on historical data. Looking at a partial dependence plot for the Centers-Only model, you can see there is simply _no point of reference_ for Jokić's __7.3__ assists per game. 
 
 ![Graph](/img/PTS_AST.png){: .center-block :}
 
