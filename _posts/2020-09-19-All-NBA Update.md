@@ -51,7 +51,9 @@ __Runner Up__ Joel Embiid
 Which turns out to be __perfectly__ correct.
 
 In fact when we end up with the ability to make predictions for all positions
+
 ![Graph](/img/all_positions.png){: .center-block :}
+
 Our predictions suggest Lillard would have been more likely to be named to the 1st Team over Dončić. As it turned out, Lillard was named to the 2nd Team behind Dončić. I am encouraged to see the uncertainty levels in our predictions are consistent with this eventuality.
 
 I certainly am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
@@ -65,6 +67,9 @@ For starters. The data set didn't exist as some perfect little _'data.csv'_ file
 My ability to successfully create the data set which is project uses is essentially my ability to __read the__ Pandas __documentation__. It's amazing how powerful the ability to read and the desire to learn can be when combined.
 
 ### The strange world of voting
+
+![Graph](/img/ballot_box.png){: .center-block :}
+
 There is no comprehensive archive of voting numbers, only award results. That means all we've got for supervision in this supervised machine-learning exercise are the three players who were the top three vote recipients. The hundreds of other players are labeled as equally non-winners. 
 
 And according to my research, there is no ready-made loss function that suits our purpose perfectly here. One vote cast for a player is at the expense of another. Even if a loss function based on rank order were easily available, within the limitations of our data, reordering players 4-400 wouldn't change the loss values whatsoever. Hardly ideal.
@@ -82,7 +87,7 @@ It's like having the voting record of only one person. But one who has never bee
 
 ### Decisions in the face of uncertainty
 
-Considering that the impact some of these award races might have, it made sense to me to try and incorporate some measure of confidence in the predictions the model outputs. Unfortunately for me Scikit-Learn doesn't(at the time of publication at least) have tools at hand for retrieving confidence intervals in Random Forest models.
+Considering that the impact some of these award races might have, it made sense for me to calculate and display some measure of confidence in model outputs. Unfortunately for me Scikit-Learn doesn't(at the time of publication at least) have tools at hand for retrieving confidence intervals in Random Forest models.
 
 However, I was able to find an open-source library called ForestCI that does have that functionality! But it was also terrifically out of date. Hours and hours of Googling later and I was able to perform something I have learned is called "monkey-patching" in order to make the library function for me. That's a topic for an entire other post.
 
