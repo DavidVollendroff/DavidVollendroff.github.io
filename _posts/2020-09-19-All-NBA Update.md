@@ -40,16 +40,21 @@ Luckily we can do _much_ better
 
 ## Throwing out positions
 Instead of building a model that only cares about what it means to be an All-NBA Center, what if instead we ask, "What does it mean to be an All-NBA __player__?" With a flexible definition of "Center", plus using statistics from __all__ NBA players irrespective of position, we go from predictions of:
-|__1st Team__| Karl-Anthony Towns|
-|__2nd Team__| Joel Embiid |
-|__3rd Team__| Andre Drummond |
-|__Runner Up__| Rudy Gobert |
+
+| __1st Team__ | Karl-Anthony Towns |
+| :------ |:--- |
+| __2nd Team__ | __Joel Embiid__ |
+| __3rd Team__ | __Andre Drummond__ |
+| __Runner Up__ | __Rudy Gobert__ |
 
 To instead predicting:
-__1st Team__ Anthony Davis
-__2nd Team__ Nikola Jokić
-__3rd Team__ Rudy Gobert
-__Runner Up__ Joel Embiid
+
+| __1st Team__ | Anthony Davis |
+| :------ |:--- |
+| __2nd Team__ | __Nikola Jokić__ |
+| __3rd Team__ | __Rudy Gobert__ |
+| __Runner Up__ | __Joel Embiid__ |
+
 Which turns out to be __perfectly__ correct.
 
 In fact when we end up with the ability to make predictions for all positions. Below you can see the "Top 8" as determined by the expanded model which considers all players.
