@@ -15,14 +15,14 @@ Kristian Winfield wrote [an excellent piece](https://www.sbnation.com/2019/5/23/
 
 In [my previous](https://davidvollendroff.github.io/2020-01-10-All-NBA-Centers/) All-NBA post I attempted to answer the question, "Who will be voted as the NBA's best Center?" And after gathering data, modeling and plotting predictions I had this very simple and clear output.
 ![Graph](/img/predictions.png){: .center-block :}
-A quick and dirty stroll through the data had given me a set of predictions for the coming season. But with knowledge of the domain, a few things just didn't look right..
+A first pass at modeling had given me a set of predictions for the coming season. But with knowledge of the domain, a few things just didn't look right..
 
 ### What is a Center?
-For starters, Anthony Davis is conspicuously missing. And this is because according to [basketball-reference](https://www.basketball-reference.com/players/d/davisan02.html#pbp::none) he actually spent 51% of his time at Power Forward. And because he's listed as a Power Forward he doesn't show up in the Centers-only dataset used. 
+For starters, Anthony Davis is conspicuously missing. And this is because according to [basketball-reference](https://www.basketball-reference.com/players/d/davisan02.html#pbp::none) he'd actually spent 51% of his minutes at Power Forward at the time of prediction. And because he's listed as a Power Forward he doesn't show up in the Centers-only dataset used. 
 
 Problematically for us, voters had no such issue with calling him a Center. In fact, prior to this season he'd been named the best "Center" in the NBA __twice__. This in spite of the fact that he self-identifies as a Power Forward.
 
-Beyond this weirdness of voters having positional flexibility in voting, some other oddities arose in part because Centers recently have turned in historically unprecedented performances.
+Beyond voters having positional flexibility in casting ballots, other oddities arose in part because recently Centers have turned in historically unprecedented performances.
 
 ### Since when can a Center pass like this?
 Nikola Jokić is a problem. Not only in basketball slang, meaning his presence has to be respected whenever he's on the court, but also because he confounds any model based on historical data. Looking at a partial dependence plot for the Centers-Only model, you can see there is simply _no point of reference_ for Jokić's __7.3__ assists per game. 
@@ -32,9 +32,11 @@ Nikola Jokić is a problem. Not only in basketball slang, meaning his presence h
 No Center in the history of basketball has ever before breathed that rarified air. Then it isn't all that surprising my original model significantly underestimates how voters value what he contributes. He's facilitating offense in a way no "big man" ever has.
 
 ### S p a r s e    D a t a
-Furthermore, two huge factors in the accuracy of predictions are the amount and quality of historical reference data. There is only one spot available for a Center on each All-NBA Team, so we have precious-little data to work with. 60 award winners over a 20 year period simply isn't enough data for the model to learn from. It can give you reasonable predictions, correctly identifying the top seven vote recipients. But only after accounting for Davis and Jokić does it order them correctly. 
+Two huge factors in the accuracy of predictions are the amount and quality of historical reference data. There is only __one__ spot available for a Center on each All-NBA Team, so we have precious-little data to work with. 60 award winners over a 20 year period simply isn't enough data for the model to learn from. 
 
-And it isn't only a "Power Forward" playing Center or a Center posting statistics in an unprecedented way that causes issues with sparse data. Another important type of edge case, discussed in [greater detail](https://davidvollendroff.github.io/2020-01-10-All-NBA-Centers/) in the original post, is the effect injuries have on swaying voters. So few All-NBA-level Centers have succumbed to injury at inopportune times that the model has no chance of dealing with those rare occurrences where they actually do.
+It isn't completely without predictive power. When validated on the 2018-19 Season it gave reasonable predictions, correctly identifying the top seven vote recipients(_in very recent years full voting totals are available_). But only after accounting for Davis and Jokić does it order them correctly. 
+
+And it isn't only a "Power Forward" playing Center or a Center posting statistics in an unprecedented way that causes issues with sparse data. Another important type of edge case, discussed in [greater detail](https://davidvollendroff.github.io/2020-01-10-All-NBA-Centers/) in the original post, is the effect injuries have on swaying voters. So few All-NBA-level Centers have succumbed to injury at inopportune times that the model has no chance of dealing with those rare occurrences when they appear.
 
 Luckily we can do _much_ better
 
@@ -57,19 +59,19 @@ To instead predicting:
 
 Which turns out to be __perfectly__ correct.
 
-In fact when we end up with the ability to make predictions for all positions. Below you can see the "Top 8" as determined by the expanded model which considers all players.
+In fact when we end up with the ability to make high-quality predictions for all positions. Below you can see the "Top 8" as determined by the expanded model which considers all players.
 
 ![Graph](/img/all_positions.png){: .center-block :}
 
-Our predictions suggest Lillard would have been more likely to be named to the 1st Team over Dončić. As it turned out, Lillard was named to the 2nd Team behind Dončić. I am encouraged to see the uncertainty levels in our predictions are consistent with this possibility.
+There is one place where these outputs don't perfectly predict the All-NBA 1st Team. These predictions show that Lillard is favored by our model over Dončić, but as it turned out, Lillard was named to the 2nd Team behind Dončić. However I am encouraged to see the confidence levels in __our predictions are consistent with this outcome__. 
 
-I certainly am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
+I am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
 
 ## Learning along the way
-My favorite aspect of this project was the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the practical realities of Data Science.
+My favorite aspect of this project is the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the practical realities of Data Science.
 
 ### Error404: DataSetNotFound
-For starters. The data set didn't exist as some perfect little _'data.csv'_ file. I'd have to gather, join, process and clean it all myself. And even before all of that, I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. In the end I incorporated sources of traditional box scores, advanced metrics, and even team statistics. I decided to include team statistics because I've personally heard many of the voters for this _individual award_ declare they won't ignore team records.
+For starters, this data set doesn't exist as some perfect _'data.csv'_ file I could go download from Kaggle. To even get started I'd have to gather, join, process and clean it all myself. And even before all of that, I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. In the end I incorporated sources of traditional box scores, advanced metrics, and even team statistics. I decided to include team statistics because I've personally heard many of the voters for this _individual award_ declare they won't ignore team records.
 
 My ability to successfully create the data set which is project uses is essentially my ability to __read the__ Pandas __documentation__. It's amazing how powerful the ability to read and the desire to learn can be when combined.
 
