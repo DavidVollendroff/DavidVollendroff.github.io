@@ -65,25 +65,33 @@ In fact when we end up with the ability to make high-quality predictions for all
 
 There is one place where these outputs don't perfectly predict the All-NBA 1st Team. These predictions show that Lillard is favored by our model over Dončić. As it turned out Lillard was named to the 2nd Team, finishing as the 3rd guard behind Harden and Dončić. However, I am encouraged to see the confidence levels in __our predictions are consistent with this outcome__. 
 
-I am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
+I am pleased with the end-stage output of this project. But beyond my satisfaction with the output, my favorite part of this project is _what the process itself brought me_.
 
 ## Learning along the way
-My favorite aspect of this project is the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the __practical realities of Data Science__.
+The real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight is my favorite aspect of this project. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the __practical realities of Data Science__.
 
 ### Error404: DataSetNotFound
-For starters, this data set doesn't exist as some perfect _'data.csv'_ file I could go download from Kaggle. To even get started I'd have to gather, join, process and clean it all myself. And even before all of that, I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. 
+For starters, this data set doesn't exist as some perfect _'data.csv'_ file I could go download from Kaggle. To even get started I'd have to gather, join, process and clean everything myself. And even before all of that, I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek in the first place. 
 
 In the end I incorporated sources of traditional box scores, advanced metrics, and even team statistics. I decided to include team statistics because I've personally heard many of the voters for this __individual award__ declare they won't ignore __team success__. That's alright. We're trying to model the real world and the real world is odd at times.
 
-My success in creating the data set which is project uses comes down to my ability to __read the__ Pandas __documentation__. It's amazing how powerful the __ability to read__ and the __desire to learn__ can be when combined.
+My success in creating the data set which this project uses comes down to my ability to __read the__ Pandas __documentation__. It's amazing how powerful the __ability to read__ and the __desire to learn__ can be when combined.
 
 ### The strange world of voting
 
 ![Graph](/img/ballot_box.png){: .center-block :}
 
-There is no comprehensive archive of voting numbers, only award results. That means all we've got for supervision in this supervised machine-learning exercise are the three players who were the top three vote recipients. The hundreds of other players are labeled as equally non-winners. 
 
-And according to my research, there is no ready-made loss function that suits our purpose perfectly here. One vote cast for a player is at the expense of another. Even if a loss function based on rank order were easily available, within the limitations of our data, reordering players 4-400 wouldn't change the loss values whatsoever. Hardly ideal.
+
+The issue of voting brings along with it a set of challenges. 
+
+- There is no comprehensive archive of voting numbers, only award results
+- Any vote cast for a player is at the expense of another player
+  - The historical record makes no distinction between a player who missed the 3rd team by a single point and one who was dead last in voting.
+- >95% of eligible players receive no votes whatsoever
+  - That means all we've got for supervision in this supervised machine-learning exercise are the three players who were the top three vote recipients. The hundreds of other players unfortunately are labeled equally as non-winners. 
+
+And according to my research, there is no ready-made loss function that suits our purpose perfectly here.  Even if a loss function based on rank order were easily available, within the limitations of our data, reordering players 4-400 wouldn't change the loss values whatsoever. Hardly ideal.
 
 But with this in mind I converted the "labels" of the dataset, that is their "Vote-worthiness" as follows:
 
