@@ -68,12 +68,14 @@ There is one place where these outputs don't perfectly predict the All-NBA 1st T
 I am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
 
 ## Learning along the way
-My favorite aspect of this project is the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the practical realities of Data Science.
+My favorite aspect of this project is the real-world complexity that comes along with trying to join domain knowledge with machine-learning driven insight. Numerous challenges and considerations came along with undertaking this project. And each taught me about, or reinforced my knowledge of, the __practical realities of Data Science__.
 
 ### Error404: DataSetNotFound
-For starters, this data set doesn't exist as some perfect _'data.csv'_ file I could go download from Kaggle. To even get started I'd have to gather, join, process and clean it all myself. And even before all of that, I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. In the end I incorporated sources of traditional box scores, advanced metrics, and even team statistics. I decided to include team statistics because I've personally heard many of the voters for this _individual award_ declare they won't ignore team records.
+For starters, this data set doesn't exist as some perfect _'data.csv'_ file I could go download from Kaggle. To even get started I'd have to gather, join, process and clean it all myself. And even before all of that, I needed to use anecdotal evidence about how voters made decisions to guide what information I'd seek. 
 
-My ability to successfully create the data set which is project uses is essentially my ability to __read the__ Pandas __documentation__. It's amazing how powerful the ability to read and the desire to learn can be when combined.
+In the end I incorporated sources of traditional box scores, advanced metrics, and even team statistics. I decided to include team statistics because I've personally heard many of the voters for this __individual award__ declare they won't ignore __team success__. That's alright. We're trying to model the real world and the real world is odd at times.
+
+My success in creating the data set which is project uses comes down to my ability to __read the__ Pandas __documentation__. It's amazing how powerful the __ability to read__ and the __desire to learn__ can be when combined.
 
 ### The strange world of voting
 
