@@ -63,7 +63,7 @@ In fact when we end up with the ability to make high-quality predictions for all
 
 ![Graph](/img/all_positions.png){: .center-block :}
 
-There is one place where these outputs don't perfectly predict the All-NBA 1st Team. These predictions show that Lillard is favored by our model over Dončić, but as it turned out, Lillard was named to the 2nd Team behind Dončić. However I am encouraged to see the confidence levels in __our predictions are consistent with this outcome__. 
+There is one place where these outputs don't perfectly predict the All-NBA 1st Team. These predictions show that Lillard is favored by our model than Dončić, but as it turned out, Lillard was named to the 2nd Team, finishing as the 3rd guard behind Harden and Dončić. However I am encouraged to see the confidence levels in __our predictions are consistent with this outcome__. 
 
 I am pleased with the end-stage output of this project. But beyond that I'm happier about what the process itself brought me.
 
