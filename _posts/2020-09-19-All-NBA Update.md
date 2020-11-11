@@ -141,4 +141,4 @@ Buuuuuuut, even with all of the things permutation importance does well, ["it te
 
 Unfortunately though, __Drop-Column Importance__ calculation is computationally very expensive. Still, it remains true that springing for a fancier EC2 instance would in fact drive easier model interpretation. Which could go a long way when examining some of the stranger predictions the model makes.
 
-Or put another way, it could help shine a light on the strange preferences human voters often have.
+I invite you to check out the [Google Colab](https://colab.research.google.com/drive/1ZrlVKxMklVckNYMXR44RfD4maEx27r6i?usp=sharing) notebook containing a walkthrough from data ingestion to insight, including numerous visuals not included in this post(e.g. 3D interactive partial-dependence plot).
